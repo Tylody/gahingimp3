@@ -1,47 +1,64 @@
-require('dotenv').config();
-const { Client, IntentsBitField, EmbedBuilder, ActivityType } = require('discord.js');
-const eventHandler = require('./handlers/eventHandler');
-const mongoose = require('mongoose');
-const { Manager } = require("lavacord");
+require("dotenv").config();
+const {
+  Client,
+  IntentsBitField,
+  GatewayIntentBits,
+  EmbedBuilder,
+  ActivityType,
+} = require("discord.js");
+const eventHandler = require("./handlers/eventHandler");
+const { LavalinkManager } = require("lavalink-client");
 
 const nodes = [
-    { id: "1", host: "localhost", port: 2333, password: "thoang39" }
+  { id: "1", host: "localhost", port: 2333, password: "thoang39" },
 ];
 
-const manager = new Manager(nodes, {
-    user: client.user.id,
-    send: (packet) => {
-
-    }
-});
-
-await manager.connect();
-
-manager.on("error", (error, node) => {
-    error,
-    node
-});
-
 const client = new Client({
-    intents: [
-        IntentsBitField.Flags.Guilds,
-        IntentsBitField.Flags.GuildMembers,
-        IntentsBitField.Flags.GuildMessages,
-        IntentsBitField.Flags.MessageContent,
-    ],
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildVoiceStates,
+    IntentsBitField.Flags.Guilds,
+    IntentsBitField.Flags.GuildMembers,
+    IntentsBitField.Flags.GuildMessages,
+    IntentsBitField.Flags.MessageContent,
+  ],
 });
 
-(async() => {
-    try {
-        await mongoose.connect(process.env.MONGODB_URI);
-        console.log("Connected to DB.");
+client.lavalink = new LavalinkManager({
+  nodes: [
+    {
+      authorization: "youshallnotpass",
+      host: "localhost",
+      port: 2333,
+      id: "testnode",
+    },
+  ],
+  sendToShard: (guildId, payload) =>
+    client.guilds.cache.get(guildId)?.shard?.send(payload),
+  client: {
+    id: process.env.CLIENT_ID,
+    username: "GahingiMP3",
+  },
+  autoSkip: true,
+  playerOptions: {
+    clientBasedPositionUpdateInterval: 150,
+    defaultSearchPlatform: "ytmsearch",
+    volumeDecrementer: 0.75,
+    // requesterTransformer: requesterTransformer,
+    onDisconnect: {
+      autoReconnect: true,
+      destroyPlayer: false,
+    },
+    onEmptyQueue: {
+      destroyAfterMs: 30_000,
+      //autoPlayFunction: autoPlayFunction,
+    },
+  },
+  queueOptions: {
+    maxPreviousTracks: 25,
+  },
+});
 
-        eventHandler(client);
-    } catch (error) {
-        console.log(`Error: ${error}`);
-    }
-})();
-
+eventHandler(client);
 
 client.login(process.env.TOKEN);
-
