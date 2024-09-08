@@ -1,4 +1,4 @@
-module.exports = (client, d) => {
+module.exports = async (client, d) => {
   console.log("raw data sending");
   client.lavalink.sendRawData(d);
 };

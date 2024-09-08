@@ -7,11 +7,13 @@ const {
   ActivityType,
 } = require("discord.js");
 const eventHandler = require("./handlers/eventHandler");
+const lavalinkHandler = require("./handlers/lavalinkHandler");
 const { LavalinkManager } = require("lavalink-client");
 
+/*
 const nodes = [
-  { id: "1", host: "localhost", port: 2333, password: "thoang39" },
-];
+  { id: "1", host: "localhost", port: 2333, password: "youshallnotpass" },
+];*/
 
 const client = new Client({
   intents: [

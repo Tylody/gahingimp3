@@ -9,17 +9,17 @@ plugins:
 #    another_key: another_value
 lavalink:
   plugins:
-#    - dependency: "com.github.example:example-plugin:1.0.0" # required, the coordinates of your plugin
-#      repository: "https://maven.example.com/releases" # optional, defaults to the Lavalink releases repository by default
-#      snapshot: false # optional, defaults to false, used to tell Lavalink to use the snapshot repository instead of the release repository
-#  pluginsDir: "./plugins" # optional, defaults to "./plugins"
-#  defaultPluginRepository: "https://maven.lavalink.dev/releases" # optional, defaults to the Lavalink release repository
-#  defaultPluginSnapshotRepository: "https://maven.lavalink.dev/snapshots" # optional, defaults to the Lavalink snapshot repository
+  #    - dependency: "com.github.example:example-plugin:1.0.0" # required, the coordinates of your plugin
+  #      repository: "https://maven.example.com/releases" # optional, defaults to the Lavalink releases repository by default
+  #      snapshot: false # optional, defaults to false, used to tell Lavalink to use the snapshot repository instead of the release repository
+  #  pluginsDir: "./plugins" # optional, defaults to "./plugins"
+  #  defaultPluginRepository: "https://maven.lavalink.dev/releases" # optional, defaults to the Lavalink release repository
+  #  defaultPluginSnapshotRepository: "https://maven.lavalink.dev/snapshots" # optional, defaults to the Lavalink snapshot repository
   server:
     password: "youshallnotpass"
     sources:
       # The default Youtube source is now deprecated and won't receive further updates. Please use https://github.com/lavalink-devs/youtube-source#plugin instead.
-      youtube: false
+      youtube: true
       bandcamp: true
       soundcloud: true
       twitch: true
@@ -50,19 +50,19 @@ lavalink:
     soundcloudSearchEnabled: true
     gc-warnings: true
     #ratelimit:
-      #ipBlocks: ["1.0.0.0/8", "..."] # list of ip blocks
-      #excludedIps: ["...", "..."] # ips which should be explicit excluded from usage by lavalink
-      #strategy: "RotateOnBan" # RotateOnBan | LoadBalance | NanoSwitch | RotatingNanoSwitch
-      #searchTriggersFail: true # Whether a search 429 should trigger marking the ip as failing
-      #retryLimit: -1 # -1 = use default lavaplayer value | 0 = infinity | >0 = retry will happen this numbers times
+    #ipBlocks: ["1.0.0.0/8", "..."] # list of ip blocks
+    #excludedIps: ["...", "..."] # ips which should be explicit excluded from usage by lavalink
+    #strategy: "RotateOnBan" # RotateOnBan | LoadBalance | NanoSwitch | RotatingNanoSwitch
+    #searchTriggersFail: true # Whether a search 429 should trigger marking the ip as failing
+    #retryLimit: -1 # -1 = use default lavaplayer value | 0 = infinity | >0 = retry will happen this numbers times
     #youtubeConfig: # Required for avoiding all age restrictions by YouTube, some restricted videos still can be played without.
-      #email: "" # Email of Google account
-      #password: "" # Password of Google account
+    #email: "" # Email of Google account
+    #password: "" # Password of Google account
     #httpConfig: # Useful for blocking bad-actors from ip-grabbing your music node and attacking it, this way only the http proxy will be attacked
-      #proxyHost: "localhost" # Hostname of the proxy, (ip or domain)
-      #proxyPort: 3128 # Proxy port, 3128 is the default for squidProxy
-      #proxyUser: "" # Optional user for basic authentication fields, leave blank if you don't use basic auth
-      #proxyPassword: "" # Password for basic authentication
+    #proxyHost: "localhost" # Hostname of the proxy, (ip or domain)
+    #proxyPort: 3128 # Proxy port, 3128 is the default for squidProxy
+    #proxyUser: "" # Optional user for basic authentication fields, leave blank if you don't use basic auth
+    #proxyPassword: "" # Password for basic authentication
 
 metrics:
   prometheus:
@@ -91,7 +91,6 @@ logging:
     includeQueryString: true
     includePayload: true
     maxPayloadLength: 10000
-
 
   logback:
     rollingpolicy:

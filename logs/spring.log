@@ -1,48 +1,7 @@
-2024-09-06T22:45:41.223-07:00  INFO 12664 --- [main] lavalink.server.Launcher                 : Starting Launcher v4.0.6 using Java 22.0.1 with PID 12664 (D:\Github\gahingimp3\Lavalink.jar started by tyler in D:\Github\gahingimp3)
-2024-09-06T22:45:41.274-07:00  INFO 12664 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
-2024-09-06T22:45:42.052-07:00  INFO 12664 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.45 seconds (process running for 1.847)
-2024-09-06T22:45:42.096-07:00  INFO 12664 --- [main] lavalink.server.Launcher                 : 
-
-[32m       .  [31m _                  _ _       _    [32m__ _ _
-[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
-[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
-[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
-[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
-[0m    =========================================[32m/_/_/_/[0m
-
-	Version:        4.0.6
-	Build time:     06.06.2024 21:02:48 UTC
-	Branch          HEAD
-	Commit:         8a8ff75
-	Commit time:    06.06.2024 20:47:26 UTC
-	JVM:            22.0.1
-	Lavaplayer      2.2.0
-
-2024-09-06T22:45:42.105-07:00  INFO 12664 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
-2024-09-06T22:45:42.601-07:00  WARN 12664 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-06T22:45:42.618-07:00  INFO 12664 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-06T22:45:42.618-07:00  INFO 12664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 509 ms
-2024-09-06T22:45:42.687-07:00  WARN 12664 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
-2024-09-06T22:45:42.807-07:00  INFO 12664 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
-2024-09-06T22:45:47.527-07:00  INFO 12664 --- [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
-2024-09-06T22:45:47.527-07:00  INFO 12664 --- [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
-2024-09-06T22:45:47.531-07:00  INFO 12664 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
-2024-09-06T22:45:47.537-07:00  INFO 12664 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
-2024-09-06T22:45:47.723-07:00  INFO 12664 --- [main] io.undertow                              : starting server: Undertow - 2.3.6.Final
-2024-09-06T22:45:47.730-07:00  INFO 12664 --- [main] org.xnio                                 : XNIO version 3.8.8.Final
-2024-09-06T22:45:47.737-07:00  INFO 12664 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
-2024-09-06T22:45:47.813-07:00  INFO 12664 --- [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
-2024-09-06T22:45:47.874-07:00  INFO 12664 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
-2024-09-06T22:45:47.878-07:00  INFO 12664 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.817 seconds (process running for 7.673)
-2024-09-06T22:45:47.878-07:00  INFO 12664 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
-2024-09-06T22:46:11.131-07:00  INFO 12664 --- [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-06T22:46:11.132-07:00  INFO 12664 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-06T22:46:11.133-07:00  INFO 12664 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-09-06T22:46:11.266-07:00  INFO 12664 --- [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/info, client=0:0:0:0:0:0:0:1
-2024-09-06T22:53:03.852-07:00  INFO 15144 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.7 using Java 22.0.1 with PID 15144 (D:\Github\gahingimp3\Lavalink.jar started by tyler in D:\Github\gahingimp3)
-2024-09-06T22:53:03.912-07:00  INFO 15144 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
-2024-09-06T22:53:04.825-07:00  INFO 15144 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 1.367 seconds (process running for 1.754)
-2024-09-06T22:53:04.872-07:00  INFO 15144 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+2024-09-08T11:25:31.237-07:00  INFO 8468 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.7 using Java 22.0.1 with PID 8468 (D:\Github\gahingimp3\Lavalink.jar started by tyler in D:\Github\gahingimp3)
+2024-09-08T11:25:31.303-07:00  INFO 8468 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T11:25:32.588-07:00  INFO 8468 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 2.003 seconds (process running for 3.308)
+2024-09-08T11:25:32.652-07:00  INFO 8468 --- [Lavalink] [main] lavalink.server.Launcher                 : 
 
 [32m       .  [31m _                  _ _       _    [32m__ _ _
 [32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
@@ -59,12 +18,65 @@
 	JVM:            22.0.1
 	Lavaplayer      2.2.1
 
-2024-09-06T22:53:04.883-07:00  INFO 15144 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
-2024-09-06T22:53:05.409-07:00  WARN 15144 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2024-09-06T22:53:05.431-07:00  INFO 15144 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2024-09-06T22:53:05.431-07:00  INFO 15144 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 544 ms
-2024-09-06T22:53:05.530-07:00  INFO 15144 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
-2024-09-06T22:53:08.784-07:00  WARN 15144 --- [Lavalink] [main] s.d.l.s.t.TwitchStreamAudioSourceManager : Failed to fetch Twitch source keys. Key fetching will be retried upon loading a Twitch track. This warning can be ignored unless the issue persists.
+2024-09-08T11:25:32.662-07:00  INFO 8468 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T11:25:33.439-07:00  WARN 8468 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-08T11:25:33.456-07:00  INFO 8468 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-08T11:25:33.456-07:00  INFO 8468 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 791 ms
+2024-09-08T11:25:33.589-07:00  INFO 8468 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-09-08T11:25:36.253-07:00  INFO 8468 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-09-08T11:25:36.253-07:00  INFO 8468 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-09-08T11:25:36.262-07:00  INFO 8468 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-09-08T11:25:36.267-07:00  INFO 8468 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-09-08T11:25:36.376-07:00  WARN 8468 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-09-08T11:25:36.702-07:00  INFO 8468 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-09-08T11:25:36.721-07:00  INFO 8468 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-09-08T11:25:36.727-07:00  INFO 8468 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-09-08T11:25:36.834-07:00  INFO 8468 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-09-08T11:25:36.917-07:00  INFO 8468 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 2333 (http) with context path '/'
+2024-09-08T11:25:36.923-07:00  INFO 8468 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 4.329 seconds (process running for 7.643)
+2024-09-08T11:25:36.925-07:00  INFO 8468 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-09-08T11:25:42.093-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08T11:25:42.093-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-08T11:25:42.094-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-08T11:25:42.113-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:65013
+2024-09-08T11:25:42.127-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T11:25:42.242-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T11:25:42.270-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T11:25:42.559-07:00  WARN 8468 --- [Lavalink] [pool-2-thread-1] o.d.windows.perfmon.PerfmonDisabled      : Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+2024-09-08T11:27:03.852-07:00  INFO 8468 --- [Lavalink] [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:65013 with id mjb7xhhu9u3h29rq -- CloseStatus[code=1006, reason=]
+2024-09-08T11:27:03.853-07:00  INFO 8468 --- [Lavalink] [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T11:27:07.795-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:65130
+2024-09-08T11:27:07.796-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T11:27:07.797-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T11:27:07.804-07:00  INFO 8468 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T11:30:27.125-07:00  INFO 8468 --- [Lavalink] [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:65130 with id anouiuqqj1qndcjl -- CloseStatus[code=1006, reason=]
+2024-09-08T11:30:27.126-07:00  INFO 8468 --- [Lavalink] [XNIO-1 I/O-11] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T11:52:03.856-07:00  INFO 11608 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.7 using Java 22.0.1 with PID 11608 (D:\Github\gahingimp3\Lavalink.jar started by tyler in D:\Github\gahingimp3)
+2024-09-08T11:52:03.912-07:00  INFO 11608 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T11:52:04.786-07:00  INFO 11608 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 1.323 seconds (process running for 1.699)
+2024-09-08T11:52:04.833-07:00  INFO 11608 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.7
+	Build time:     08.07.2024 22:14:17 UTC
+	Branch          HEAD
+	Commit:         93102f8
+	Commit time:    08.07.2024 21:49:02 UTC
+	JVM:            22.0.1
+	Lavaplayer      2.2.1
+
+2024-09-08T11:52:04.844-07:00  INFO 11608 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T11:52:05.374-07:00  WARN 11608 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-08T11:52:05.391-07:00  INFO 11608 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-08T11:52:05.391-07:00  INFO 11608 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 544 ms
+2024-09-08T11:52:05.488-07:00  INFO 11608 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-09-08T11:52:09.568-07:00  WARN 11608 --- [Lavalink] [main] s.d.l.s.t.TwitchStreamAudioSourceManager : Failed to fetch Twitch source keys. Key fetching will be retried upon loading a Twitch track. This warning can be ignored unless the issue persists.
 
 com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading Twitch main page failed.
 	at com.sedmelluq.discord.lavaplayer.source.twitch.TwitchStreamAudioSourceManager.initRequestHeaders(TwitchStreamAudioSourceManager.java:232) ~[lavaplayer-2.2.1.jar!/:na]
@@ -132,7 +144,348 @@ com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading Twitch main pa
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:95) ~[Lavalink.jar:4.0.7]
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[Lavalink.jar:4.0.7]
 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[Lavalink.jar:4.0.7]
-Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to www.twitch.tv:443 [www.twitch.tv/146.75.94.167] failed: Connect timed out
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to www.twitch.tv:443 [www.twitch.tv/151.101.198.167] failed: Read timed out
+	at com.sedmelluq.discord.lavaplayer.tools.http.ExtendedConnectionOperator.connectWithDestination(ExtendedConnectionOperator.java:150) ~[lavaplayer-2.2.1.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.http.ExtendedConnectionOperator.connect(ExtendedConnectionOperator.java:69) ~[lavaplayer-2.2.1.jar!/:na]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at com.sedmelluq.discord.lavaplayer.tools.io.HttpInterface.execute(HttpInterface.java:73) ~[lavaplayer-2.2.1.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.twitch.TwitchStreamAudioSourceManager.initRequestHeaders(TwitchStreamAudioSourceManager.java:220) ~[lavaplayer-2.2.1.jar!/:na]
+	... 64 common frames omitted
+	Suppressed: com.sedmelluq.discord.lavaplayer.tools.http.ExtendedConnectionOperator$AdditionalDetails: Encountered when opening a connection with the following details:
+  host: https://www.twitch.tv:443
+  localAddress: <unspecified>
+  remoteAddress: www.twitch.tv/151.101.198.167:443
+  connectTimeout: 3000
+  triedAddresses: www.twitch.tv/151.101.198.167
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1108) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1095) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:472) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181) ~[na:na]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[na:na]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at com.sedmelluq.discord.lavaplayer.tools.http.ExtendedConnectionOperator.connectWithDestination(ExtendedConnectionOperator.java:145) ~[lavaplayer-2.2.1.jar!/:na]
+	... 75 common frames omitted
+
+2024-09-08T11:52:09.698-07:00  INFO 11608 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-09-08T11:52:09.698-07:00  INFO 11608 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-09-08T11:52:09.701-07:00  INFO 11608 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-09-08T11:52:09.706-07:00  INFO 11608 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-09-08T11:52:09.747-07:00  WARN 11608 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-09-08T11:52:09.968-07:00  INFO 11608 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-09-08T11:52:09.975-07:00  INFO 11608 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-09-08T11:52:09.981-07:00  INFO 11608 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-09-08T11:52:10.053-07:00  INFO 11608 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-09-08T11:52:10.116-07:00  INFO 11608 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 2333 (http) with context path '/'
+2024-09-08T11:52:10.120-07:00  INFO 11608 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 5.326 seconds (process running for 7.035)
+2024-09-08T11:52:10.121-07:00  INFO 11608 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-09-08T11:52:44.483-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08T11:52:44.483-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-08T11:52:44.484-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-08T11:52:44.505-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:50705
+2024-09-08T11:52:44.523-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T11:52:44.569-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T11:52:44.594-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T11:52:44.838-07:00  WARN 11608 --- [Lavalink] [pool-2-thread-1] o.d.windows.perfmon.PerfmonDisabled      : Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+2024-09-08T11:58:38.533-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:50705 with id cxohf7fgcw3rc7dl -- CloseStatus[code=1006, reason=]
+2024-09-08T11:58:38.534-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T11:58:53.565-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:51390
+2024-09-08T11:58:53.566-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T11:58:53.567-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T11:58:53.578-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T11:58:56.363-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:51390 with id 0vs83l39zs9mhbt8 -- CloseStatus[code=1006, reason=]
+2024-09-08T11:58:56.363-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T12:15:34.242-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:53505
+2024-09-08T12:15:34.243-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T12:15:34.244-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T12:15:34.254-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T12:16:02.628-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:53505 with id wbrzg0a5dkclzpat -- CloseStatus[code=1006, reason=]
+2024-09-08T12:16:02.628-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T12:16:03.116-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:53600
+2024-09-08T12:16:03.118-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T12:16:03.119-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T12:16:03.129-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T12:17:08.427-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:53600 with id 1fo4pgms6x4fe1n3 -- CloseStatus[code=1006, reason=]
+2024-09-08T12:17:08.427-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T12:18:01.618-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info, client=0:0:0:0:0:0:0:1
+2024-09-08T12:21:00.564-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:54194
+2024-09-08T12:21:00.566-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T12:21:00.567-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T12:21:00.577-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T12:21:45.906-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:54194 with id 0e8yvjgn7agm07yg -- CloseStatus[code=1006, reason=]
+2024-09-08T12:21:45.906-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-12] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T12:21:51.818-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:54350
+2024-09-08T12:21:51.819-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T12:21:51.819-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T12:21:51.825-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T12:22:37.740-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:54350 with id o32rg5kmy517peb6 -- CloseStatus[code=1006, reason=]
+2024-09-08T12:22:37.740-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T12:22:57.932-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:54484
+2024-09-08T12:22:57.933-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T12:22:57.934-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T12:22:57.939-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T14:48:12.050-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:54484 with id jcnweq0h2kav2ywt -- CloseStatus[code=1006, reason=]
+2024-09-08T14:48:12.056-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-12] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T14:48:21.690-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:54869
+2024-09-08T14:48:21.721-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T14:48:21.723-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T14:48:21.729-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T14:49:06.178-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:54869 with id w0ft0qckrjvkxo82 -- CloseStatus[code=1006, reason=]
+2024-09-08T14:49:06.178-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T14:49:26.137-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:55016
+2024-09-08T14:49:26.139-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T14:49:26.140-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T14:49:26.146-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T14:52:28.677-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:55016 with id lyd93kwdp51ucb07 -- CloseStatus[code=1006, reason=]
+2024-09-08T14:52:28.677-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T14:54:57.313-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:55938
+2024-09-08T14:54:57.314-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T14:54:57.315-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T14:54:57.321-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T14:55:40.400-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-15] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:55938 with id zb97l95gvty2x07q -- CloseStatus[code=1006, reason=]
+2024-09-08T14:55:40.401-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-15] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T14:55:49.386-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56090
+2024-09-08T14:55:49.387-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T14:55:49.388-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T14:55:49.394-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:00:07.002-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56090 with id 380kqb1w6aihp27h -- CloseStatus[code=1006, reason=]
+2024-09-08T15:00:07.002-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:00:27.501-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56447
+2024-09-08T15:00:27.502-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:00:27.503-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:00:27.509-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:00:47.569-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56447 with id 9bsupreqfgudk6ih -- CloseStatus[code=1006, reason=]
+2024-09-08T15:00:47.569-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:00:54.881-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56535
+2024-09-08T15:00:54.882-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:00:54.883-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:00:54.889-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:00:58.132-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56535 with id 46xesv6g5kn82g34 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:00:58.132-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-12] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:01:24.396-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56594
+2024-09-08T15:01:24.397-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:01:24.398-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:01:24.404-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:01:47.810-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-13] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56594 with id ifs3hz0forp7yts6 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:01:47.810-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-13] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:02:07.648-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56766
+2024-09-08T15:02:07.649-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:02:07.650-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:02:07.656-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:02:14.925-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56766 with id 8lcdekc5ibgqk1tx -- CloseStatus[code=1006, reason=]
+2024-09-08T15:02:14.925-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:02:54.155-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56876
+2024-09-08T15:02:54.156-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:02:54.157-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:02:54.163-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:03:21.534-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56876 with id 1rnixcrjg0jyr384 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:03:21.534-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:03:27.300-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:56955
+2024-09-08T15:03:27.301-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:03:27.302-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:03:27.307-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:05:26.906-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:56955 with id 777jfz23pgwsa4io -- CloseStatus[code=1006, reason=]
+2024-09-08T15:05:26.906-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-16] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:05:30.036-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:57164
+2024-09-08T15:05:30.037-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:05:30.038-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:05:30.044-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:05:45.005-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:57164 with id u6zuqs20wmxkz89k -- CloseStatus[code=1006, reason=]
+2024-09-08T15:05:45.005-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:06:39.564-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:57322
+2024-09-08T15:06:39.565-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:06:39.566-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:06:39.576-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:06:42.633-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:57322 with id ry7w09qssk728g88 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:06:42.633-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:13:49.927-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:57895
+2024-09-08T15:13:49.928-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:13:49.929-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:13:49.935-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:14:10.532-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:57895 with id kmjlead1e07ziatx -- CloseStatus[code=1006, reason=]
+2024-09-08T15:14:10.532-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:14:11.782-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:57921
+2024-09-08T15:14:11.783-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:14:11.784-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:14:11.791-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:15:27.030-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:57921 with id m9hs2p1ryf3uxt1y -- CloseStatus[code=1006, reason=]
+2024-09-08T15:15:27.030-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:15:35.531-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58155
+2024-09-08T15:15:35.532-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:15:35.533-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:15:35.538-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:15:43.446-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58155 with id m19c2ksklrma0qit -- CloseStatus[code=1006, reason=]
+2024-09-08T15:15:43.446-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:15:51.929-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58199
+2024-09-08T15:15:51.930-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:15:51.930-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:15:51.936-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:15:58.534-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58199 with id 7xoxubvwg74m2471 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:15:58.535-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:16:06.339-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58246
+2024-09-08T15:16:06.339-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:16:06.341-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:16:06.346-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:16:18.846-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-13] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58246 with id ud40pkuwd7440q01 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:16:18.846-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-13] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:16:36.703-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58349
+2024-09-08T15:16:36.705-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:16:36.706-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:16:36.711-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:16:40.455-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-15] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58349 with id 3f3s5u2en7zl7a8d -- CloseStatus[code=1006, reason=]
+2024-09-08T15:16:40.455-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-15] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:20:25.503-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58508
+2024-09-08T15:20:25.504-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:20:25.505-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:20:25.510-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:21:00.789-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58508 with id dqam02ih6vnq9vuh -- CloseStatus[code=1006, reason=]
+2024-09-08T15:21:00.790-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-9] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:21:08.534-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58642
+2024-09-08T15:21:08.535-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:21:08.536-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:21:08.542-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:21:09.936-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58642 with id 202ld4rxqazak5hy -- CloseStatus[code=1006, reason=]
+2024-09-08T15:21:09.936-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:21:21.710-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58678
+2024-09-08T15:21:21.711-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:21:21.712-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:21:21.718-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:21:42.414-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58678 with id jhbh8p3580b541y2 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:21:42.414-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:22:06.813-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:58758
+2024-09-08T15:22:06.814-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:22:06.815-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:22:06.822-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:27:11.787-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:58758 with id xhacv65j90y9kvgj -- CloseStatus[code=1006, reason=]
+2024-09-08T15:27:11.787-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:27:32.277-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59399
+2024-09-08T15:27:32.278-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:27:32.279-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:27:32.284-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:27:48.378-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59399 with id vzrewbsssgrx5nd1 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:27:48.378-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:28:53.709-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:59523
+2024-09-08T15:28:53.709-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:28:53.710-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:28:53.715-07:00  INFO 11608 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:28:58.975-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:59523 with id kea1uzg18blhg0ah -- CloseStatus[code=1006, reason=]
+2024-09-08T15:28:58.975-07:00  INFO 11608 --- [Lavalink] [XNIO-1 I/O-12] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:31:05.991-07:00  INFO 3032 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.7 using Java 22.0.1 with PID 3032 (D:\Github\gahingimp3\Lavalink.jar started by tyler in D:\Github\gahingimp3)
+2024-09-08T15:31:06.051-07:00  INFO 3032 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T15:31:07.260-07:00  INFO 3032 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 1.901 seconds (process running for 3.102)
+2024-09-08T15:31:07.330-07:00  INFO 3032 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.7
+	Build time:     08.07.2024 22:14:17 UTC
+	Branch          HEAD
+	Commit:         93102f8
+	Commit time:    08.07.2024 21:49:02 UTC
+	JVM:            22.0.1
+	Lavaplayer      2.2.1
+
+2024-09-08T15:31:07.337-07:00  INFO 3032 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T15:31:08.126-07:00  WARN 3032 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-08T15:31:08.148-07:00  INFO 3032 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-08T15:31:08.148-07:00  INFO 3032 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 803 ms
+2024-09-08T15:31:08.275-07:00  INFO 3032 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-09-08T15:31:08.465-07:00  WARN 3032 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : The default Youtube source is now deprecated and won't receive further updates.
+You should use the new Youtube source plugin instead.
+https://github.com/lavalink-devs/youtube-source#plugin.
+To disable this warning, set 'lavalink.server.sources.youtube' to false in your application.yml.
+2024-09-08T15:31:12.267-07:00  WARN 3032 --- [Lavalink] [main] s.d.l.s.t.TwitchStreamAudioSourceManager : Failed to fetch Twitch source keys. Key fetching will be retried upon loading a Twitch track. This warning can be ignored unless the issue persists.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading Twitch main page failed.
+	at com.sedmelluq.discord.lavaplayer.source.twitch.TwitchStreamAudioSourceManager.initRequestHeaders(TwitchStreamAudioSourceManager.java:232) ~[lavaplayer-2.2.1.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.twitch.TwitchStreamAudioSourceManager.<init>(TwitchStreamAudioSourceManager.java:60) ~[lavaplayer-2.2.1.jar!/:na]
+	at lavalink.server.config.AudioPlayerConfiguration.audioPlayerManagerSupplier(AudioPlayerConfiguration.kt:165) ~[classes!/:4.0.7]
+	at lavalink.server.config.AudioPlayerConfiguration$$SpringCGLIB$$0.CGLIB$audioPlayerManagerSupplier$1(<generated>) ~[classes!/:4.0.7]
+	at lavalink.server.config.AudioPlayerConfiguration$$SpringCGLIB$$FastClass$$1.invoke(<generated>) ~[classes!/:4.0.7]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258) ~[spring-core-6.1.9.jar!/:6.1.9]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:339) ~[spring-context-6.1.9.jar!/:6.1.9]
+	at lavalink.server.config.AudioPlayerConfiguration$$SpringCGLIB$$0.audioPlayerManagerSupplier(<generated>) ~[classes!/:4.0.7]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.9.jar!/:6.1.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962) ~[spring-context-6.1.9.jar!/:6.1.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.9.jar!/:6.1.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.0.jar!/:3.3.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.0.jar!/:3.3.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.0.jar!/:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.0.jar!/:3.3.0]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:149) ~[spring-boot-3.3.0.jar!/:3.3.0]
+	at lavalink.server.Launcher.launchMain(Launcher.kt:164) ~[classes!/:4.0.7]
+	at lavalink.server.Launcher.main(Launcher.kt:126) ~[classes!/:4.0.7]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[Lavalink.jar:4.0.7]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:95) ~[Lavalink.jar:4.0.7]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[Lavalink.jar:4.0.7]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[Lavalink.jar:4.0.7]
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to www.twitch.tv:443 [www.twitch.tv/146.75.94.167] failed: Read timed out
 	at com.sedmelluq.discord.lavaplayer.tools.http.ExtendedConnectionOperator.connectWithDestination(ExtendedConnectionOperator.java:150) ~[lavaplayer-2.2.1.jar!/:na]
 	at com.sedmelluq.discord.lavaplayer.tools.http.ExtendedConnectionOperator.connect(ExtendedConnectionOperator.java:69) ~[lavaplayer-2.2.1.jar!/:na]
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.14.jar!/:4.5.14]
@@ -152,59 +505,197 @@ Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to www.twitch.t
   remoteAddress: www.twitch.tv/146.75.94.167:443
   connectTimeout: 3000
   triedAddresses: www.twitch.tv/146.75.94.167
-Caused by: java.net.SocketTimeoutException: Connect timed out
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:752) ~[na:na]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368) ~[httpclient-4.5.14.jar!/:4.5.14]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1108) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1095) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160) ~[na:na]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[na:na]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436) ~[httpclient-4.5.14.jar!/:4.5.14]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384) ~[httpclient-4.5.14.jar!/:4.5.14]
 	at com.sedmelluq.discord.lavaplayer.tools.http.ExtendedConnectionOperator.connectWithDestination(ExtendedConnectionOperator.java:145) ~[lavaplayer-2.2.1.jar!/:na]
 	... 75 common frames omitted
 
-2024-09-06T22:53:08.916-07:00  INFO 15144 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
-2024-09-06T22:53:08.916-07:00  INFO 15144 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
-2024-09-06T22:53:08.918-07:00  INFO 15144 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
-2024-09-06T22:53:08.924-07:00  INFO 15144 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
-2024-09-06T22:53:08.959-07:00  WARN 15144 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
-2024-09-06T22:53:09.165-07:00  INFO 15144 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
-2024-09-06T22:53:09.171-07:00  INFO 15144 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
-2024-09-06T22:53:09.176-07:00  INFO 15144 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
-2024-09-06T22:53:09.245-07:00  INFO 15144 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
-2024-09-06T22:53:09.304-07:00  INFO 15144 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 2333 (http) with context path '/'
-2024-09-06T22:53:09.308-07:00  INFO 15144 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 4.476 seconds (process running for 6.236)
-2024-09-06T22:53:09.308-07:00  INFO 15144 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
-2024-09-06T22:53:44.652-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-06T22:53:44.654-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-06T22:53:44.655-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-09-06T22:53:44.731-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/info, client=0:0:0:0:0:0:0:1
-2024-09-06T23:15:12.686-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:61032
-2024-09-06T23:15:12.700-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
-2024-09-06T23:15:12.710-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
-2024-09-06T23:15:12.732-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
-2024-09-06T23:15:13.030-07:00  WARN 15144 --- [Lavalink] [pool-2-thread-1] o.d.windows.perfmon.PerfmonDisabled      : Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-2024-09-06T23:15:44.621-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:61032 with id jsmmclg5avog8ww0 -- CloseStatus[code=1006, reason=]
-2024-09-06T23:15:44.622-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-11] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2024-09-06T23:30:49.517-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62727
-2024-09-06T23:30:49.519-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
-2024-09-06T23:30:49.519-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
-2024-09-06T23:30:49.525-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
-2024-09-06T23:31:00.155-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62727 with id ykj460hxkdyne7ns -- CloseStatus[code=1006, reason=]
-2024-09-06T23:31:00.155-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2024-09-06T23:31:11.277-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62800
-2024-09-06T23:31:11.278-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
-2024-09-06T23:31:11.279-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
-2024-09-06T23:31:11.286-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
-2024-09-06T23:31:30.130-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-14] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62800 with id xpy1m22j17oi95l2 -- CloseStatus[code=1006, reason=]
-2024-09-06T23:31:30.131-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-14] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2024-09-06T23:32:01.505-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62847
-2024-09-06T23:32:01.506-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
-2024-09-06T23:32:01.507-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
-2024-09-06T23:32:01.512-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
-2024-09-06T23:32:11.811-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62847 with id 797k0df3en280h7p -- CloseStatus[code=1006, reason=]
-2024-09-06T23:32:11.812-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2024-09-06T23:48:14.019-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:63898
-2024-09-06T23:48:14.020-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
-2024-09-06T23:48:14.021-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
-2024-09-06T23:48:14.027-07:00  INFO 15144 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
-2024-09-06T23:48:36.966-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:63898 with id mq6m3ynh7v8oyod5 -- CloseStatus[code=1006, reason=]
-2024-09-06T23:48:36.966-07:00  INFO 15144 --- [Lavalink] [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:31:12.450-07:00  INFO 3032 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-09-08T15:31:12.451-07:00  INFO 3032 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-09-08T15:31:12.453-07:00  INFO 3032 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-09-08T15:31:12.460-07:00  INFO 3032 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-09-08T15:31:12.637-07:00  WARN 3032 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-09-08T15:31:12.950-07:00  INFO 3032 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-09-08T15:31:12.957-07:00  INFO 3032 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-09-08T15:31:12.964-07:00  INFO 3032 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-09-08T15:31:13.069-07:00  INFO 3032 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-09-08T15:31:13.146-07:00  INFO 3032 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 2333 (http) with context path '/'
+2024-09-08T15:31:13.153-07:00  INFO 3032 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 5.887 seconds (process running for 8.995)
+2024-09-08T15:31:13.154-07:00  INFO 3032 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-09-08T15:31:48.739-07:00  INFO 3032 --- [Lavalink] [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.3.13.Final
+2024-09-08T15:31:48.745-07:00  INFO 3032 --- [Lavalink] [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-09-08T15:34:04.396-07:00  INFO 1920 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.7 using Java 22.0.1 with PID 1920 (D:\Github\gahingimp3\Lavalink.jar started by tyler in D:\Github\gahingimp3)
+2024-09-08T15:34:04.450-07:00  INFO 1920 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T15:34:05.332-07:00  INFO 1920 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 1.333 seconds (process running for 1.735)
+2024-09-08T15:34:05.379-07:00  INFO 1920 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.7
+	Build time:     08.07.2024 22:14:17 UTC
+	Branch          HEAD
+	Commit:         93102f8
+	Commit time:    08.07.2024 21:49:02 UTC
+	JVM:            22.0.1
+	Lavaplayer      2.2.1
+
+2024-09-08T15:34:05.385-07:00  INFO 1920 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T15:34:05.904-07:00  WARN 1920 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-08T15:34:05.923-07:00  INFO 1920 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-08T15:34:05.924-07:00  INFO 1920 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 535 ms
+2024-09-08T15:34:06.026-07:00  INFO 1920 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-09-08T15:34:07.601-07:00  INFO 1920 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-09-08T15:34:07.601-07:00  INFO 1920 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-09-08T15:34:07.605-07:00  INFO 1920 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-09-08T15:34:07.613-07:00  INFO 1920 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-09-08T15:34:07.674-07:00  WARN 1920 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-09-08T15:34:07.896-07:00  INFO 1920 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-09-08T15:34:07.904-07:00  INFO 1920 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-09-08T15:34:07.911-07:00  INFO 1920 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-09-08T15:34:07.997-07:00  INFO 1920 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-09-08T15:34:08.080-07:00  INFO 1920 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 2333 (http) with context path '/'
+2024-09-08T15:34:08.085-07:00  INFO 1920 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 2.747 seconds (process running for 4.488)
+2024-09-08T15:34:08.086-07:00  INFO 1920 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-09-08T15:35:07.040-07:00  INFO 12704 --- [Lavalink] [main] lavalink.server.Launcher                 : Starting Launcher v4.0.7 using Java 22.0.1 with PID 12704 (D:\Github\gahingimp3\Lavalink.jar started by tyler in D:\Github\gahingimp3)
+2024-09-08T15:35:07.095-07:00  INFO 12704 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T15:35:08.065-07:00  INFO 12704 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 1.407 seconds (process running for 1.804)
+2024-09-08T15:35:08.119-07:00  INFO 12704 --- [Lavalink] [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        4.0.7
+	Build time:     08.07.2024 22:14:17 UTC
+	Branch          HEAD
+	Commit:         93102f8
+	Commit time:    08.07.2024 21:49:02 UTC
+	JVM:            22.0.1
+	Lavaplayer      2.2.1
+
+2024-09-08T15:35:08.126-07:00  INFO 12704 --- [Lavalink] [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-09-08T15:35:08.734-07:00  WARN 12704 --- [Lavalink] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-09-08T15:35:08.755-07:00  INFO 12704 --- [Lavalink] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-09-08T15:35:08.756-07:00  INFO 12704 --- [Lavalink] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 622 ms
+2024-09-08T15:35:08.884-07:00  INFO 12704 --- [Lavalink] [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-09-08T15:35:09.046-07:00  WARN 12704 --- [Lavalink] [main] l.s.config.AudioPlayerConfiguration      : The default Youtube source is now deprecated and won't receive further updates.
+You should use the new Youtube source plugin instead.
+https://github.com/lavalink-devs/youtube-source#plugin.
+To disable this warning, set 'lavalink.server.sources.youtube' to false in your application.yml.
+2024-09-08T15:35:10.801-07:00  INFO 12704 --- [Lavalink] [main] l.server.config.KoeConfiguration         : OS: WINDOWS, Arch: X86_64
+2024-09-08T15:35:10.802-07:00  INFO 12704 --- [Lavalink] [main] l.server.config.KoeConfiguration         : Enabling JDA-NAS
+2024-09-08T15:35:10.804-07:00  INFO 12704 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-09-08T15:35:10.808-07:00  INFO 12704 --- [Lavalink] [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-09-08T15:35:10.864-07:00  WARN 12704 --- [Lavalink] [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-09-08T15:35:11.075-07:00  INFO 12704 --- [Lavalink] [main] io.undertow                              : starting server: Undertow - 2.3.13.Final
+2024-09-08T15:35:11.082-07:00  INFO 12704 --- [Lavalink] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-09-08T15:35:11.089-07:00  INFO 12704 --- [Lavalink] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-09-08T15:35:11.168-07:00  INFO 12704 --- [Lavalink] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-09-08T15:35:11.234-07:00  INFO 12704 --- [Lavalink] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 2333 (http) with context path '/'
+2024-09-08T15:35:11.238-07:00  INFO 12704 --- [Lavalink] [main] lavalink.server.Launcher                 : Started Launcher in 3.165 seconds (process running for 4.977)
+2024-09-08T15:35:11.239-07:00  INFO 12704 --- [Lavalink] [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-09-08T15:35:21.637-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08T15:35:21.637-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-08T15:35:21.638-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-08T15:35:21.666-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:61027
+2024-09-08T15:35:21.692-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:35:21.821-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:35:21.852-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:35:22.131-07:00  WARN 12704 --- [Lavalink] [pool-2-thread-1] o.d.windows.perfmon.PerfmonDisabled      : Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+2024-09-08T15:35:36.106-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:61027 with id jr8fs33lrq0dydz7 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:35:36.107-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:36:03.135-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:61185
+2024-09-08T15:36:03.136-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:36:03.137-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:36:03.143-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:36:32.694-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:61185 with id h39apya23b5kcyn0 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:36:32.694-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:37:02.539-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:61349
+2024-09-08T15:37:02.540-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:37:02.541-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:37:02.548-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:37:33.816-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:61349 with id 5k2g3dg4nfl79sjj -- CloseStatus[code=1006, reason=]
+2024-09-08T15:37:33.817-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:38:43.277-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:61478
+2024-09-08T15:38:43.278-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:38:43.279-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:38:43.285-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:38:49.700-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:Elton John"
+2024-09-08T15:38:51.142-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Elton John
+2024-09-08T15:38:51.166-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytmsearch%3AElton%20John&trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:38:51.263-07:00  WARN 12704 --- [Lavalink] [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2024-09-08T15:38:51.276-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/0qs9jzj3babjyp05/players/1201449167583711200?trace=true, client=0:0:0:0:0:0:0:1, payload={"track":{"encoded":"QAABDwMAKUZ1bmVyYWwgRm9yIEEgRnJpZW5kIC8gTG92ZSBMaWVzIEJsZWVkaW5nAApFbHRvbiBKb2huAAAAAAAKLXgAC1JFZktOYk5uZHpvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UkVmS05iTm5kem8BAH5odHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vdW5KbnhERVB1SnpCM2U5TkY5SDQ5WmtJQnNjY2pKYWJqME1uSGpHTnQ2UmR0Z3o4RFRHRk1GVE9BQ0R3QjRGeTZ4ek5rckVFbTMxaERnM209dzEwMDAtaDEwMDAAAAd5b3V0dWJlAAAAAAAAAAA=","userData":{}},"volume":75,"position":0}
+2024-09-08T15:38:52.469-07:00 ERROR 12704 --- [Lavalink] [lava-daemon-pool-playback-1-thread-1] .s.d.l.s.y.YoutubeSignatureCipherManager : Problematic YouTube player script /s/player/5f8f5b0f/player_ias.vflset/en_US/base.js detected (issue detected with script: no n function match). Dumped to C:\Users\tyler\AppData\Local\Temp\lavaplayer-yt-player-script4487923585632315837.js
+2024-09-08T15:38:52.501-07:00  INFO 12704 --- [Lavalink] [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2024-09-08T15:38:56.603-07:00  INFO 12704 --- [Lavalink] [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is Cgt4dS13UGhRa2lSYyiBz_i2BjIKCgJVUxIEGgAgFjoMCAEgs8-Si5Dwie9m, next update will be after 600 seconds.
+2024-09-08T15:39:37.432-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-13] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:61478 with id 0qs9jzj3babjyp05 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:39:37.433-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-13] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2024-09-08T15:39:59.070-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:61654
+2024-09-08T15:39:59.071-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:39:59.072-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:39:59.078-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:40:04.267-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:Elton John"
+2024-09-08T15:40:04.740-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Elton John
+2024-09-08T15:40:04.743-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytmsearch%3AElton%20John&trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:40:04.751-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/wcrwtmit4dme827i/players/1201449167583711200?trace=true, client=0:0:0:0:0:0:0:1, payload={"track":{"encoded":"QAABDwMAKUZ1bmVyYWwgRm9yIEEgRnJpZW5kIC8gTG92ZSBMaWVzIEJsZWVkaW5nAApFbHRvbiBKb2huAAAAAAAKLXgAC1JFZktOYk5uZHpvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UkVmS05iTm5kem8BAH5odHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vdW5KbnhERVB1SnpCM2U5TkY5SDQ5WmtJQnNjY2pKYWJqME1uSGpHTnQ2UmR0Z3o4RFRHRk1GVE9BQ0R3QjRGeTZ4ek5rckVFbTMxaERnM209dzEwMDAtaDEwMDAAAAd5b3V0dWJlAAAAAAAAAAA=","userData":{}},"volume":75,"position":0}
+2024-09-08T15:41:14.526-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:61654 with id wcrwtmit4dme827i -- CloseStatus[code=1006, reason=]
+2024-09-08T15:41:14.526-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:41:19.379-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:61758
+2024-09-08T15:41:19.380-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:41:19.381-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:41:19.388-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:42:35.736-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:61758 with id i64ekp4swg3fu484 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:42:35.736-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:42:40.318-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62081
+2024-09-08T15:42:40.319-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:42:40.320-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:42:40.325-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:42:42.824-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:Elton John"
+2024-09-08T15:42:43.849-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Elton John
+2024-09-08T15:42:43.851-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytmsearch%3AElton%20John&trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:42:43.860-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/mbm1eedq91v5wt7x/players/1201449167583711232?trace=true, client=0:0:0:0:0:0:0:1, payload={"track":{"encoded":"QAABDwMAKUZ1bmVyYWwgRm9yIEEgRnJpZW5kIC8gTG92ZSBMaWVzIEJsZWVkaW5nAApFbHRvbiBKb2huAAAAAAAKLXgAC1JFZktOYk5uZHpvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UkVmS05iTm5kem8BAH5odHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vdW5KbnhERVB1SnpCM2U5TkY5SDQ5WmtJQnNjY2pKYWJqME1uSGpHTnQ2UmR0Z3o4RFRHRk1GVE9BQ0R3QjRGeTZ4ek5rckVFbTMxaERnM209dzEwMDAtaDEwMDAAAAd5b3V0dWJlAAAAAAAAAAA=","userData":{}},"volume":75,"position":0}
+2024-09-08T15:44:18.895-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : DELETE /v4/sessions/mbm1eedq91v5wt7x/players/1201449167583711232?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:53:27.811-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62081 with id mbm1eedq91v5wt7x -- CloseStatus[code=1006, reason=]
+2024-09-08T15:53:27.811-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:53:29.261-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62870
+2024-09-08T15:53:29.262-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:53:29.263-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:53:29.269-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:53:41.813-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62870 with id z5psq48imh2c7bfi -- CloseStatus[code=1006, reason=]
+2024-09-08T15:53:41.813-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-09-08T15:54:07.423-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /[0:0:0:0:0:0:0:1]:62968
+2024-09-08T15:54:07.424-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/websocket, client=0:0:0:0:0:0:0:1
+2024-09-08T15:54:07.425-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from GahingiMP3
+2024-09-08T15:54:07.431-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/info?trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:54:13.590-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:Elton John"
+2024-09-08T15:54:15.652-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Elton John
+2024-09-08T15:54:15.654-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : GET /v4/loadtracks?identifier=ytmsearch%3AElton%20John&trace=true, client=0:0:0:0:0:0:0:1
+2024-09-08T15:54:15.660-07:00  INFO 12704 --- [Lavalink] [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is Cgt4dS13UGhRa2lSYyiBz_i2BjIKCgJVUxIEGgAgFjoMCAEgs8-Si5Dwie9m).
+2024-09-08T15:54:15.660-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-3] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/f3b62m2qgwdyhjs0/players/1201449167583711232?trace=true, client=0:0:0:0:0:0:0:1, payload={"track":{"encoded":"QAABDwMAKUZ1bmVyYWwgRm9yIEEgRnJpZW5kIC8gTG92ZSBMaWVzIEJsZWVkaW5nAApFbHRvbiBKb2huAAAAAAAKLXgAC1JFZktOYk5uZHpvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UkVmS05iTm5kem8BAH5odHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vdW5KbnhERVB1SnpCM2U5TkY5SDQ5WmtJQnNjY2pKYWJqME1uSGpHTnQ2UmR0Z3o4RFRHRk1GVE9BQ0R3QjRGeTZ4ek5rckVFbTMxaERnM209dzEwMDAtaDEwMDAAAAd5b3V0dWJlAAAAAAAAAAA=","userData":{}},"volume":75,"position":0}
+2024-09-08T15:54:17.533-07:00  INFO 12704 --- [Lavalink] [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is Cgt2QlVOeXd0WHpoRSia1vi2BjIKCgJVUxIEGgAgUDoMCAEg0pWWq6fjiu9m, next update will be after 600 seconds.
+2024-09-08T15:54:23.882-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /[0:0:0:0:0:0:0:1]:62968 with id f3b62m2qgwdyhjs0 -- CloseStatus[code=1006, reason=]
+2024-09-08T15:54:23.882-07:00  INFO 12704 --- [Lavalink] [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2024-09-08T15:54:29.587-07:00  INFO 12704 --- [Lavalink] [XNIO-1 task-2] l.server.io.RequestLoggingFilter         : PATCH /v4/sessions/f3b62m2qgwdyhjs0/players/1201449167583711232?trace=true, client=0:0:0:0:0:0:0:1, payload={"voice":{"token":"7336f722439d3300","endpoint":"us-west3472.discord.media:443","sessionId":"49fb73c06165dd9c7cee7e0feeef0067"}}
