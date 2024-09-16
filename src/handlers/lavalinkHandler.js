@@ -14,11 +14,12 @@ module.exports = async (client) => {
 
   // connect to voice channel
   await player.connect();
+  await console.log("Player connected");
 
   // search query
   const res = await player.search(
     {
-      query: `Elton John`,
+      query: `Miki Matsubara`,
     },
     interaction.user
   );

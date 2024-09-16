@@ -1,5 +1,4 @@
 const { PermissionFlagsBits } = require("discord.js");
-const { createPlayer } = require("lavalink-client");
 
 module.exports = {
   name: "join",
@@ -31,7 +30,7 @@ module.exports = {
 
     const res = await player.search(
       {
-        query: `Elton John`,
+        query: `Miki Matsubara`,
       },
       interaction.user
     );
@@ -43,3 +42,4 @@ module.exports = {
     interaction.editReply("Player joined.");
   },
 };
+// https://github.com/Tomato6966/lavalink-client/blob/main/testBot/commands/play.ts
