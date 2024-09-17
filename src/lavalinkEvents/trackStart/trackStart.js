@@ -1,7 +1,15 @@
-module.exports = async (client, track) => {
-  /*  if (!track && player.queue.current) track = player.queue.current;
+module.exports = async (client, player) => {
+  let track;
 
-  guildId = client.
+  if (!track && player.queue.current) track = player.queue.current;
 
-  console.log(track?.info?.title);*/
+  const textChannelId = await player.options.textChannelId;
+
+  const channel = await client.channels.cache.get(textChannelId);
+
+  channel.send(
+    `:notes: Now playing:  [${track.info.title}](${track.info.uri})`
+  );
+
+  console.log("Playing: ", track.info.title, " ", track.info.uri);
 };

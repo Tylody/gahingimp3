@@ -26,7 +26,7 @@ module.exports = {
     if (!voiceChannelId)
       return interaction.editReply("Please join a voice channel first.");
 
-    const textChannelId = await interaction.textChannelId;
+    const textChannelId = await interaction.channelId;
 
     const oldPlayer = await client.lavalink.getPlayer(guildId);
 
@@ -64,7 +64,7 @@ module.exports = {
     if (!player.playing) await player.play();
 
     interaction.editReply(
-      `Queued song [${res.tracks[0].info.title}](${res.tracks[0].info.uri})`
+      `:cd: Queued song: [${res.tracks[0].info.title}](${res.tracks[0].info.uri})`
     );
   },
 };

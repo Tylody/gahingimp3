@@ -14,7 +14,7 @@ module.exports = {
     if (!voiceChannelId)
       return interaction.editReply("Please join a voice channel first.");
 
-    const textChannelId = await interaction.textChannelId;
+    const textChannelId = await interaction.channelId;
 
     const player = await client.lavalink.createPlayer({
       guildId: guildId,
