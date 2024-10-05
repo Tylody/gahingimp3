@@ -14,21 +14,50 @@ async function scrapeSite(keyword) {
   return searchResults;
 }
 
-async function main() {
-  const keyword = "site:genius.com big brother kanye west lyrics";
+async function get_genius() {
+  const keyword = "site:genius.com fly away 장윤주 lyrics";
   const output_urls = await scrapeSite(keyword);
 
   let first_result = output_urls[4];
-  first_result = first_result.slice(0, 6);
-  console.log(first_result);
+  first_result = first_result.slice(7, first_result.length);
+  const re = /[^&]*/;
+  output = re.exec(first_result);
+  return output[0];
 }
 
-let string =
-  "/url?q=https://genius.com/Kanye-west-big-brother-lyrics&sa=U&ved=2ahUKEwjp6IfGhuqIAxXgEUQIHZmFNPcQqoUBegQIAhAB&usg=AOvVaw0yJJzkQXo9w1-pG2EO1Quj";
-string = string.slice(7, string.length);
+async function get_lyrics(genius_site_url) {
+  const { data } = await axios.get(genius_site_url);
+  const $ = cheerio.load(data);
+  const searchResults = [];
+  $("div").each((_idx, el) => {
+    if ($(el).attr("class") == "Lyrics__Container-sc-1ynbvzw-1 kUgSbL") {
+      searchResults.push($(el).prop("outerHTML"));
+    }
+  });
+  fs.writeFile("./html/result2.txt", searchResults[0], function (err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("Saved!");
+  });
+  let product = "";
+  const regex = /<[^>]*>/g;
+  for (let i = 0; i < searchResults.length; i++) {
+    searchResults[i] = searchResults[i].replaceAll("<br>", "\n");
+    output = searchResults[i].replaceAll(regex, "");
+    product = product.concat(output).concat("\n");
+  }
+  fs.writeFile("./html/result.txt", product, function (err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("Saved!");
+  });
+}
 
-const re = /[^&]*/;
+async function main() {
+  const url = await get_genius();
+  get_lyrics(url);
+}
 
-output = re.exec(string);
-
-console.log(output[0]);
+main();
