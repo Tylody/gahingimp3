@@ -15,14 +15,20 @@ async function scrapeSite(keyword) {
 }
 
 async function get_genius() {
-  const keyword = "site:genius.com fly away 장윤주 lyrics";
+  const keyword = "site:genius.com plastic love mariya takeuchi lyrics";
   const output_urls = await scrapeSite(keyword);
 
-  let first_result = output_urls[4];
-  first_result = first_result.slice(7, first_result.length);
-  const re = /[^&]*/;
-  output = re.exec(first_result);
-  return output[0];
+  let i = 4;
+  while (i < output_urls.length) {
+    let curr_result = output_urls[i];
+    curr_result = curr_result.slice(7, curr_result.length);
+    const re = /[^&]*/;
+    output = re.exec(curr_result);
+    if (output[0].slice(output[0].length - 6, output[0].length) == "lyrics") {
+      return output[0];
+    }
+    i++;
+  }
 }
 
 async function get_lyrics(genius_site_url) {
